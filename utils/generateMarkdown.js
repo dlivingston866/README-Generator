@@ -6,14 +6,14 @@ function generateMarkdown(data) {
    # Description:
   ## ${data.description}
 
-  #Table of Contents:
-  (#Description)
-  (#Installation)
-  (#Usage)
-  (#License)
-  (#Contributing)
-  (#Tests)
-  (#Questions)
+ # Table of Contents:
+ # (Description)
+ # (Installation)
+ # (Usage)
+ # (License)
+ # (Contributing)
+ # (Tests)
+ # (Questions)
 
 
   # Installinstation:
@@ -33,10 +33,8 @@ function generateMarkdown(data) {
   
   # Questions?
   ## ${data.questions}
-  ## Github user name:
-  ## ${data.githubUserName}
-  ## Developer email:
-  ## ${data.email}
+  ## Github user name: ## ${data.githubUserName}
+  ## Developer email: ## ${data.email}
   ## video link
 `;
 }

@@ -1,38 +1,36 @@
 # Title:
-    # A good README Generator
+    # Good Readme Generator
     
    # Description:
-  ## A README generator for developers
+  ## A readme generator for developers
 
-  #Table of Contents:
-  (#Description)
-  (#Installation)
-  (#Usage)
-  (#License)
-  (#Contributing)
-  (#Tests)
-  (#Questions)
+ # Table of Contents:
+ # (Description)
+ # (Installation)
+ # (Usage)
+ # (License)
+ # (Contributing)
+ # (Tests)
+ # (Questions)
 
 
   # Installinstation:
-  ## node.js and npm
+  ## With node.js and NPM
 
   # Usage:
-  ## In the terminal
+  ## in the terminal
 
   # License:
-## Apache License 2.0
+## GNU General Public License v3.0
 
   # Contributing:
-  ## Node.js contributor guidelines
+  ## Node.js/contributor
 
   # Tests:
-  ## node.js test
+  ## node.js/test
   
   # Questions?
-  ## No, it works just fine.
-  ## Github user name:
-  ## dlivingston866
-  ## Developer email:
-  ## dliving1.dlgmail.com
+  ## No, it looks like a great project.
+  ## Github user name: ## dlivingston866
+  ## Developer email: ## dliving1.dl@gmail.com
   ## video link
