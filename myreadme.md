@@ -2,9 +2,9 @@
     # A good README Generator
     
    # Description:
-  ## This is a command line operation that questions the user about their new project.
+  ## A README generator for developers
 
-  "Table of Contents:"
+  #Table of Contents:
   (#Description)
   (#Installation)
   (#Usage)
@@ -15,21 +15,24 @@
 
 
   # Installinstation:
-  ## node.js and NPM
+  ## node.js and npm
 
   # Usage:
-  ## in Terminal
+  ## In the terminal
 
   # License:
-## 
+## Apache License 2.0
 
   # Contributing:
-  ## Explained in Node.js
+  ## Node.js contributor guidelines
 
   # Tests:
   ## node.js test
   
   # Questions?
-  ## no
-  ## dlivingston688
-  ## d@gmail.com
+  ## No, it works just fine.
+  ## Github user name:
+  ## dlivingston866
+  ## Developer email:
+  ## dliving1.dlgmail.com
+  ## video link

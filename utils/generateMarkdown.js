@@ -6,7 +6,7 @@ function generateMarkdown(data) {
    # Description:
   ## ${data.description}
 
-  "Table of Contents:"
+  #Table of Contents:
   (#Description)
   (#Installation)
   (#Usage)
@@ -33,8 +33,11 @@ function generateMarkdown(data) {
   
   # Questions?
   ## ${data.questions}
+  ## Github user name:
   ## ${data.githubUserName}
+  ## Developer email:
   ## ${data.email}
+  ## video link
 `;
 }
 
