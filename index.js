@@ -1,7 +1,10 @@
-var inquirer = require("inquirer");
-var fs = require('fs');
+const inquirer = require('inquirer');
+const fs = require('fs');
+const generateMarkdown = require("./utils/generateMarkdown");
 
-inquirer.prompt([{
+
+//function promptUser() {
+return inquirer.prompt([{
         type: "input",
         name: "title",
         message: "What is the title of your Project?"
@@ -9,33 +12,64 @@ inquirer.prompt([{
     {
         type: "input",
         name: "description",
-        message: "Please describe the new project?"
+        message: "Please describe the new project"
     },
     {
         type: "input",
-        name: "install-instr",
+        name: "installInstr",
         message: "How is the project to be installed?"
     },
     {
         type: "input",
-        name: "usage-info",
+        name: "usageInfo",
         message: "How is the project to be used?"
     },
     {
-        type: "input",
-        name: "cont-guidelines",
-        message: "What is the title of your Project?"
+        type: "checkbox",
+        name: "stack",
+        message: "Available Licenses:",
+        choices: [
+            "MIT License",
+            "Apache License 2.0",
+            "GNU General Public License v3.0",
+            "Creative Commons Zero v1,0 Universal"
+        ]
     },
     {
         type: "input",
-        name: "test-instructns",
-        message: "What is the title of your Project?"
+        name: "contGuidelines",
+        message: "What are the contribution guidelines?"
     },
+    {
+        type: "input",
+        name: "testInstructns",
+        message: "What are the instructions for testing?"
+    },
+    {
+        type: "input",
+        name: "githubUserName",
+        message: "What is your Github User Name?"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is your email address?"
+    },
+    {
+        type: "input",
+        name: "questions",
+        message: "Do you have any questions?"
+    },
+
 ]).then(function(data) {
+    console.log(data);
 
-    var filename = data.name.toLowerCase().split(' ').join('') + ".json";
+    let markdown = generateMarkdown(data);
+    console.log(markdown);
 
-    fs.writeFile(filename, JSON.stringify(data, null, '\t'), function(err) {
+    var filename = "./myreadme.md";
+
+    fs.writeFile(filename, markdown, function(err) {
 
         if (err) {
             return console.log(err);
@@ -44,20 +78,3 @@ inquirer.prompt([{
 
     });
 });
-
-
-// array of questions for user
-//const questions = [
-
-//];
-
-// function to write README file
-//function writeToFile(fileName, data) {}
-
-// function to initialize program
-//function init() {
-
-// }
-
-// function call to initialize program
-// init();
