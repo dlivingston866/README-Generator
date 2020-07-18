@@ -1,8 +1,8 @@
 # Title:
-    # ddd
+    # Good README Generator
     
    # Description:
-  ## ddd
+  ## A README generatoe for developers
 
  # Table of Contents:
  
@@ -15,23 +15,23 @@
  [Questions](#questions)
 
 
-  # Installinstation:
-  ## eee
+  # Installation:
+  ## Node.js and NPM
 
   # Usage:
-  ## ddd
+  ## For developing quick readme's 
 
   # License:
-## Creative Commons Zero v1,0 Universal
+## MIT License
 
   # Contributing:
-  ## wwww
+  ## Node.js/contributing
 
   # Tests:
-  ## www
+  ## Node.js/testing
   
   # Questions?
-  ## eeee
-  ## Github user name:  wwwwww
+  ## No, things look good
+  ## Github user name:  dlivingston866
   ## Developer email:  somebody@gmail.com
-  ## video link
+  ## Video Link: https://drive.google.com/file/d/1--PoqJHOqtaqCOqZgIppOU0EkpMJirdJ/view

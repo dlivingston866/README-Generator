@@ -17,7 +17,7 @@ function generateMarkdown(data) {
  [Questions](#questions)
 
 
-  # Installinstation:
+  # Installation:
   ## ${data.installInstr}
 
   # Usage:
@@ -36,7 +36,7 @@ function generateMarkdown(data) {
   ## ${data.questions}
   ## Github user name:  ${data.githubUserName}
   ## Developer email:  ${data.email}
-  ## video link
+  ## Video Link:  https://drive.google.com/file/d/1--PoqJHOqtaqCOqZgIppOU0EkpMJirdJ/view
 `;
 }
 
